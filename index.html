@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="/_vercel/insights/script.js"></script>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slide.css">
+    <script src="./script.js"></script>
+    <link rel="websit icon" type="png" href="./img/icon.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <meta name="description"content="High-performance HTML based website template."/>
+  </head>
+  <body>
+    <div class="background-section">
+      <video autoplay loop muted>
+        <source src="./video/sakai-katana-in-the-field-ghost-of-tsushima-moewalls-com.mp4">
+      </video>
+    </div>
+    <div class="box">
+      <div class="conteudo">
+        <h1>Meu Portfólio</h1>
+        <h3>Veja meu projetos abaixo:</h3>
+        <div id="welcome">
+          <p>Clique para ouvir áudio de fundo:</p>
+          <button onclick="ativarAudio()">▶</button>
+        </div>
+        <audio id="meuAudio" loop>
+          <source src="./audio/Ghost Of Tsushima Menu Flute Theme.mp3" type="audio/mp3">
+        </audio>
+      </div>
+      <main>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="project-img">
+                <a href="https://curriculo-amber-beta.vercel.app/"><img src="./img/curriculo.png" alt="Foto 01"></a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <a href="https://pousada-beta.vercel.app/"><img src="./img/pousada.png" alt="Foto 02"></a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <a href="https://playlist-psi-nine.vercel.app/"><img src="./img/playlist.png" alt="Foto 03"></a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <a href="https://tudo-sobre-basquete.vercel.app/"><img src="./img/site_baquete.png" alt="Foto 04"></a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <a href="https://site-de-vendas-sigma.vercel.app/"><img src="./img/site_vendas.png" alt="Foto 04"></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </main>
+  
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="script.js"></script>
+  
+    </div> <!--box-->
+  
+    </div>
+  </body>
+</html>
